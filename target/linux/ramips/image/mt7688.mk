@@ -11,6 +11,15 @@ define Device/LinkIt7688
 endef
 TARGET_DEVICES += LinkIt7688
 
+define Device/uuwifi-u2
+  DTS := UUWiFi-U2
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := UUWiFi-U2
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += uuwifi-u2
+
+
 define Device/pbr-d1
   DTS := PBR-D1
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

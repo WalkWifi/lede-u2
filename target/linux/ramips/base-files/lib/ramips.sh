@@ -520,6 +520,9 @@ ramips_board_detect() {
 	*"Widora-NEO")
 		name="widora-neo"
 		;;
+       *"UUWiFi-U2")
+               name="uuwifi-u2"
+               ;;
 	*"WiTi")
                 name="witi"
 		;;
